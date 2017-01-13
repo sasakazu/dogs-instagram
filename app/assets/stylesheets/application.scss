@@ -17,3 +17,47 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
+// footer start
+
+ .footer-contents {
+   background-color: #393F48;
+   padding: 20px;
+
+   h6 {
+     color: #FFF;
+     font-size: 14px;
+     margin-bottom: 26px;
+     margin-left: 37px;
+   }
+   li {
+     list-style: none;
+     margin-bottom: 10px;
+
+     a {
+       color: #999;
+     }
+   }
+
+   p {
+     margin: 0 0 10px;
+     text-align: center;
+     color: #999;
+     margin-top: 42px;
+     letter-spacing: 2px;
+   }
+ }
+
+.footer-left {
+  float: left;
+  width: 33%;
+}
+
+
+.footer-right {
+  float: left;
+  width: 33%;
+}
+
+// footer end
