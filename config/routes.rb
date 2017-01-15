@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
 
+  get 'dogposts/new'
+
+  get 'dogposts/edit'
+
   root 'pages#index'
 
   get 'pages/about'

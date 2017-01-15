@@ -1,0 +1,29 @@
+<%= render 'shared/header' %>
+
+
+<div class="container">
+  <div class="dogposts-new">
+    <h2>写真を投稿する</h2>
+
+    <%= form_for @dogspost do |f| %>
+
+    <%= f.label :name, "コメント" %>
+    <%= f.text_field :name ,"コメント" %>
+
+
+    <% end %>
+
+
+
+
+
+
+  </div>
+<!-- dogposts-new -->
+
+
+</div>
+<!-- container -->
+
+
+<%= render 'shared/footer' %>
