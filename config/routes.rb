@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
 
 
-  get 'dogposts/new'
+  # get 'dogposts/new'
+  #
+  # get 'dogposts/edit'
+  #
+  #
 
-  get 'dogposts/edit'
+  resource :dogposts
 
   root 'pages#index'
 

@@ -5,10 +5,12 @@
   <div class="dogposts-new">
     <h2>写真を投稿する</h2>
 
-    <%= form_for @dogspost do |f| %>
+    <%= form_for @dogpost do |f| %>
 
-    <%= f.label :name, "コメント" %>
-    <%= f.text_field :name ,"コメント" %>
+    <%= f.label "コメント" %>
+    <%= f.text_field :comment %>
+
+    <%= f.submit "投稿する" %>
 
 
     <% end %>
