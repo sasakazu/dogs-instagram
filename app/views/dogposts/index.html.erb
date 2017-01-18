@@ -1,0 +1,37 @@
+
+
+
+<%= render 'shared/header' %>
+
+<div class="container">
+  <h2>一覧</h2>
+
+
+  <div class="row">
+
+    <% @dogposts.each do |dogpost| %>
+
+        <div class="col-md-4">
+
+          <%= dogpost.comment %>
+
+          
+        </div>
+      <!-- col-md-4 -->
+
+    <% end %>
+
+
+
+  </div>
+<!-- row -->
+
+
+</div>
+<!-- container -->
+
+
+
+
+
+<%= render 'shared/footer' %>

@@ -20,17 +20,22 @@ class DogpostsController < ApplicationController
     	end
       end
 
-def show
-  @dogpost = Dogpost.find(params[:id])
-end
+  def show
+    @dogpost = Dogpost.find(params[:id])
+  end
+
+
+  def index
+    @dogposts = Dogpost.all
+  end
 
 
 
-    private
+              private
 
-      def dogpost_params
-        params.require(:dogpost).permit(:comment)
-      end
+                def dogpost_params
+                  params.require(:dogpost).permit(:comment)
+                end
 
 
 
