@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   #
   #
 
-  resource :dogposts
+  resources :dogposts
 
   root 'pages#index'
 
