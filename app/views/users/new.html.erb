@@ -1,0 +1,23 @@
+<%= render 'shared/header' %>
+
+<div class="container">
+
+  <h1>新規会員登録</h1>
+
+      <%= form_for(@user) do |f| %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+
+      <%= f.submit "登録する" %>
+
+      <% end %>
+
+</div>
+
+
+
+<%= render 'shared/footer' %>

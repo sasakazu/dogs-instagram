@@ -1,11 +1,6 @@
 Rails.application.routes.draw do
 
-
-  # get 'dogposts/new'
-  #
-  # get 'dogposts/edit'
-  #
-  #
+  resources :users
 
   resources :dogposts
 
