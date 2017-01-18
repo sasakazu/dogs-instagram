@@ -1,17 +1,6 @@
 Rails.application.routes.draw do
 
-<<<<<<< HEAD
   resources :users
-=======
-
-  get 'user/new'
-
-  # get 'dogposts/new'
-  #
-  # get 'dogposts/edit'
-  #
-  #
->>>>>>> origin/master
 
   resources :dogposts
 
