@@ -2,11 +2,41 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// bootstrap
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+
+
 
 
 // pages/index.html.erb
 
 
 .top-image {
+  background-image: url("/assets/dog.jpeg");
+  background-size: cover;
 
+  h1 {
+    color: #FFF;
+    letter-spacing: 3px;
+    font-size: 66px;
+    margin-bottom: 22px;
+  }
+
+  p {
+    color: #FFF;
+    letter-spacing: 2px;
+  }
+
+
+}
+
+.bg-inner {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
 }

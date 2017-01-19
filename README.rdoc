@@ -33,3 +33,6 @@ $ git add -A
 $ git commit -m "Finish user signup"
 $ git checkout master
 $ git merge sign-up
+
+
+git branch -d <branchname>
