@@ -38,3 +38,5 @@ $ git merge sign-up
 git branch -d <branchname>
 
 git reset --hard <code>
+
+git push -f (強制プッシュ)
