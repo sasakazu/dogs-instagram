@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170119092252) do
+ActiveRecord::Schema.define(version: 20170123042713) do
 
   create_table "dogposts", force: :cascade do |t|
     t.datetime "created_at", null: false

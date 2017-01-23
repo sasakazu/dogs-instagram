@@ -35,7 +35,7 @@ $ git checkout master
 $ git merge sign-up
 
 
-git branch -d <branchname>
+git branch -d <branchname>  ブランチ削除
 
 git reset --hard <code>
 
