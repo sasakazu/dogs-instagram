@@ -34,7 +34,7 @@ class DogpostsController < ApplicationController
               private
 
                 def dogpost_params
-                  params.require(:dogpost).permit(:comment)
+                  params.require(:dogpost).permit(:comment,:image)
                 end
 
 

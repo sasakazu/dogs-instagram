@@ -7,8 +7,14 @@
 
     <%= form_for @dogpost do |f| %>
 
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+
+
     <%= f.label "コメント" %>
     <%= f.text_field :comment %>
+
+
 
     <%= f.submit "投稿する" %>
 
