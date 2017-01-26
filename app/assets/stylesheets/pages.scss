@@ -40,3 +40,61 @@
   background-color: rgba(0, 0, 0, .5);
   text-align: center;
 }
+
+.index-contents-main {
+  width: 600px;
+  margin: 30px auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+
+
+
+
+
+.index-contents {
+  margin: 0 auto;
+
+  img {
+    width: 600px;
+    height: 600px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+}
+
+
+.index-contents-bottom {
+  padding: 14px 20px;
+
+  a {
+
+
+    img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      float: left;
+    }
+  }
+
+  p {
+    color: #999;
+    clear: both;
+    padding-top: 13px;
+  }
+}
+
+.index-user-name {
+
+    float: left;
+    margin-left: 14px;
+    margin-top: 7px;
+
+    a {
+      color: #262626;
+      font-weight: bold;
+
+    }
+}
