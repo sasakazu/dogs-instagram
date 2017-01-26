@@ -2,6 +2,7 @@ class PagesController < ApplicationController
 
   def index
     @dogposts = Dogpost.all
+    @users = User.all
   end
 
   def about

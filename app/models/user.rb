@@ -2,7 +2,7 @@ class User < ActiveRecord::Base
 
   attr_accessor :remember_token
   has_secure_password
-  has_many :dogpost
+  has_many :dogposts
 
 
 

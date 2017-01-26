@@ -9,25 +9,34 @@
   </div>
 </div>
 
+<% @dogposts.each do |dogpost| %>
+<% @users.each do |user| %>
+
+
 <div class="container">
   <div class="index-contents-main">
     <div class="index-contents">
-      <img src="../assets/dog.jpeg" alt="">
+      <%= image_tag dogpost.image.url %>
+
     </div>
+
+
 
       <div class="index-contents-bottom">
         <div>
           <a href="">
-            <img src="../assets/dog.jpeg" alt="">
+            <%= image_tag dogpost.image.url %>
           </a>
         </div>
 
         <div class="index-user-name">
-          <a href="">ユーザー名</a>
+          <a href=""><%= user.name %></a>
         </div>
 
         <div>
-          <p>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</p>
+          <p>
+            <%= dogpost.comment %>
+          </p>
         </div>
 
       </div>
@@ -39,9 +48,12 @@
   </div>
   <!-- row -->
 
+
 </div>
 <!-- container -->
 
+<% end %>
+<% end %>
 
 
 
