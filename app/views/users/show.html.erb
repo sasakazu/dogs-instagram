@@ -7,8 +7,8 @@
   <div class="user-show row">
 
     <div class="user-show-left col-md-4">
-      <img src="/images/dog.jpeg" style="width:140px; height:140px;" alt="..." class="img-circle">
-
+      <!-- <img src="/images/dog.jpeg" style="width:140px; height:140px;" alt="..." class="img-circle"> -->
+      <%= image_tag @user.icon.url ,:size => "140x140", :class => "img-circle" %>
     </div>
 
     <div class="user-show-right col-md-8">

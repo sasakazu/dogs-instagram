@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170202041636) do
+ActiveRecord::Schema.define(version: 20170202051238) do
 
   create_table "dogposts", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20170202041636) do
     t.string   "password_digest"
     t.string   "remember_digest"
     t.text     "profile"
+    t.string   "icon"
   end
 
 end

@@ -9,11 +9,13 @@
   <%= form_for @user do |f| %>
 
   <%= f.label :名前 %><br>
-
   <%= f.text_field :name %><br>
 
-  <%= f.label :プロフィール %><br>
+  <%= f.label :アイコン %><br>
+  <%= f.file_field :icon %><br>
 
+
+  <%= f.label :プロフィール %><br>
   <%= f.text_field :profile %><br>
 
   <%= f.submit 'send' %>

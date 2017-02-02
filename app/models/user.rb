@@ -2,7 +2,9 @@ class User < ActiveRecord::Base
 
   attr_accessor :remember_token
   has_secure_password
-  has_many :dogposts
+  has_many :dogposts, dependent: :destroy
+  mount_uploader :icon, ImagesUploader
+
 
 
 
