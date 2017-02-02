@@ -11,14 +11,21 @@ class DogpostsController < ApplicationController
 
 
   def create
-    @dogpost = Dogpost.new(dogpost_params)
+    @dogpost = current_user.dogposts.build(dogpost_params)
       if @dogpost.save
-          redirect_to @dogpost
+          redirect_to root_path
 
     	else
     		render "new"
     	end
-      end
+  end
+
+
+
+
+
+
+
 
   def show
     @dogpost = Dogpost.find(params[:id])
