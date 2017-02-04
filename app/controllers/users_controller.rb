@@ -7,6 +7,8 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @dogposts = @user.dogposts(params[:id])
+
   end
 
   def edit

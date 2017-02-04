@@ -7,6 +7,11 @@
 // user/show.html.erb
 
 
+.user-show-main {
+  margin-bottom: 100px;
+}
+
+
 
 .user-show {
   margin-top: 66px;
@@ -23,9 +28,26 @@
 
 .user-show-right {
 
-    p {
-    }
+}
 
+#dogpost {
 
+  img {
+    width: 293px;
+    height: 293px;
+    border-radius: 3px;
+  }
 
+  li {
+    list-style: none;
+  }
+
+  .content {
+    margin-bottom: 25px;
+  }
+
+}
+
+.image-count {
+  margin-bottom: 56px;
 }

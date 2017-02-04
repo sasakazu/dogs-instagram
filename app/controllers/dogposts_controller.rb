@@ -13,7 +13,7 @@ class DogpostsController < ApplicationController
   def create
     @dogpost = current_user.dogposts.build(dogpost_params)
       if @dogpost.save
-          redirect_to root_path
+          redirect_to current_user
 
     	else
     		render "new"
