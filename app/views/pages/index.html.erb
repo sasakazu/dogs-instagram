@@ -9,52 +9,6 @@
   </div>
 </div>
 
-<% @dogposts.each do |dogpost| %>
-<% @users.each do |user| %>
-
-
-<div class="container">
-  <div class="index-contents-main">
-    <div class="index-contents">
-      <%= image_tag dogpost.image.url %>
-
-    </div>
-
-
-
-      <div class="index-contents-bottom">
-        <div>
-          <a href="">
-            <%= image_tag dogpost.image.url %>
-          </a>
-        </div>
-
-        <div class="index-user-name">
-          <a href=""><%= user.name %></a>
-        </div>
-
-        <div>
-          <p>
-            <%= dogpost.comment %>
-          </p>
-        </div>
-
-      </div>
-
-
-
-
-
-  </div>
-  <!-- row -->
-
-
-</div>
-<!-- container -->
-
-<% end %>
-<% end %>
-
 
 
 

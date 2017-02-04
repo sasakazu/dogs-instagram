@@ -6,6 +6,7 @@ class Dogpost < ActiveRecord::Base
 
   validates :user_id, presence: true
   validates :comment, presence: true
+  validates :image, presence: true
 
 
 end
